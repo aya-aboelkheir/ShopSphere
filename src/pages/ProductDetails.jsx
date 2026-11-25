@@ -116,6 +116,13 @@ export default function ProductDetails({ language = "en" }) {
         startIcon={<ArrowBackIcon />}
         onClick={() => navigate("/products")}
         className="mb-3"
+        sx={{
+           direction: isArabic ? "rtl" : "ltr",
+  gap: 1,
+  "& .MuiButton-startIcon": {
+    margin: 0,
+  }
+        }}
       >
         {t("Back to Products", "العودة للمنتجات")}
       </Button>
