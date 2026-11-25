@@ -1,37 +1,45 @@
-# ShopSphere 🛍️
+# ShopSphere — E-commerce Frontend
 
-A modern and responsive e-commerce frontend built with **React, Vite, Tailwind CSS, and Material UI**.
+A responsive e-commerce experience built with React, focused on product discovery and a smooth shopping flow.
 
-## 🚀 Live Demo
-[Visit ShopSphere](https://shop-sphere-three-weld.vercel.app/)
+<div align="center">
 
-## ✨ Features
-- Responsive design for desktop, tablet, and mobile.
-- Product catalog with search and filtering.
-- Product details pages.
-- Shopping cart and wishlist.
-- Add to cart and quantity management.
-- English and Arabic language support.
-- Dark mode.
+[**Live Demo**](https://shop-sphere-three-weld.vercel.app/) · [**Repository**](https://github.com/aya-aboelkheir/ShopSphere)
 
-## 🛠️ Tech Stack
-- React
-- Vite
-- JavaScript
-- Tailwind CSS
-- Material UI (MUI)
-- React Router
-- Framer Motion
+</div>
 
-## 💻 Run Locally
+## Features
+
+- Browse a product catalog and explore product details
+- Search and filter products
+- Add products to the shopping cart and manage quantities
+- Save products to a wishlist
+- English and Arabic interface support
+- Light and dark themes
+- Responsive layouts for desktop, tablet, and mobile
+
+## Tech Stack
+
+- **Core:** React, JavaScript, Vite
+- **Styling & UI:** Tailwind CSS, Material UI (MUI), Emotion
+- **Routing:** React Router
+- **Motion:** Framer Motion
+
+## Run Locally
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/aya-aboelkheir/ShopSphere.git
 cd ShopSphere
 npm install
 npm run dev
 ```
 
+## Build
+
+```bash
+npm run build
+```
+
 ---
 
-Developed as a frontend e-commerce project.
+Built as a frontend e-commerce project.
